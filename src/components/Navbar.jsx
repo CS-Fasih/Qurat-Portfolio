@@ -31,8 +31,8 @@ export default function Navbar() {
     <>
       <motion.nav
         className={`navbar ${scrolled ? 'scrolled' : ''}`}
-        initial={{ y: -80, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
+        initial={{ y: -80, opacity: 0, x: "-50%" }}
+        animate={{ y: 0, opacity: 1, x: "-50%" }}
         transition={{ duration: 0.6, delay: 0.2 }}
       >
         <div className="navbar-logo">Qurat</div>
