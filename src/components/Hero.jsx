@@ -85,21 +85,36 @@ export default function Hero() {
               custom={4}
             >
               <div className="hero-stat">
-                <div className="hero-stat-icon">★</div>
+                <div className="hero-stat-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                </div>
                 <div>
                   <div className="hero-stat-value">3+</div>
                   <div className="hero-stat-label">Projects Tested</div>
                 </div>
               </div>
               <div className="hero-stat">
-                <div className="hero-stat-icon">⚡</div>
+                <div className="hero-stat-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                  </svg>
+                </div>
                 <div>
                   <div className="hero-stat-value">AI-Powered</div>
                   <div className="hero-stat-label">QA Workflows</div>
                 </div>
               </div>
               <div className="hero-stat">
-                <div className="hero-stat-icon">◆</div>
+                <div className="hero-stat-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                  </svg>
+                </div>
                 <div>
                   <div className="hero-stat-value">Full Stack</div>
                   <div className="hero-stat-label">Testing Coverage</div>
