@@ -1,0 +1,117 @@
+import { motion } from 'framer-motion';
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 40 },
+  visible: (i = 0) => ({
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.7, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] },
+  }),
+};
+
+export default function Hero() {
+  return (
+    <section className="hero" id="hero">
+      <div className="hero-bg-gradient" />
+      <div className="container">
+        <div className="hero-content">
+          <div className="hero-text">
+            <motion.div
+              className="section-label"
+              variants={fadeUp}
+              initial="hidden"
+              animate="visible"
+              custom={0}
+            >
+              [01] QA Engineer
+            </motion.div>
+
+            <motion.h1
+              variants={fadeUp}
+              initial="hidden"
+              animate="visible"
+              custom={1}
+            >
+              I ensure <em>quality</em> at every <em>layer</em> of the stack.
+            </motion.h1>
+
+            <motion.p
+              className="hero-subtitle"
+              variants={fadeUp}
+              initial="hidden"
+              animate="visible"
+              custom={2}
+            >
+              Manual testing, API validation, and database verification —
+              delivering bug-free digital products with AI-powered QA workflows
+              and meticulous attention to detail.
+            </motion.p>
+
+            <motion.div
+              className="hero-actions"
+              variants={fadeUp}
+              initial="hidden"
+              animate="visible"
+              custom={3}
+            >
+              <a href="#contact" className="btn btn-primary">
+                Hire Me →
+              </a>
+              <a href="#projects" className="btn btn-outline">
+                <span style={{ color: 'var(--accent)', fontSize: '8px' }}>●</span>
+                View Projects
+              </a>
+            </motion.div>
+
+            <motion.div
+              className="hero-stats"
+              variants={fadeUp}
+              initial="hidden"
+              animate="visible"
+              custom={4}
+            >
+              <div className="hero-stat">
+                <div className="hero-stat-icon">★</div>
+                <div>
+                  <div className="hero-stat-value">3+</div>
+                  <div className="hero-stat-label">Projects Tested</div>
+                </div>
+              </div>
+              <div className="hero-stat">
+                <div className="hero-stat-icon">⚡</div>
+                <div>
+                  <div className="hero-stat-value">AI-Powered</div>
+                  <div className="hero-stat-label">QA Workflows</div>
+                </div>
+              </div>
+              <div className="hero-stat">
+                <div className="hero-stat-icon">◆</div>
+                <div>
+                  <div className="hero-stat-value">Full Stack</div>
+                  <div className="hero-stat-label">Testing Coverage</div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+
+          <motion.div
+            className="hero-image"
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+          >
+            <div className="hero-image-glow" />
+            <div className="hero-image-ring" />
+            <div className="hero-image-wrapper">
+              <img
+                src="/Qurat_formal_image.jpeg"
+                alt="Qurat-ul-Ain — QA Engineer"
+                loading="eager"
+              />
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+}
