@@ -27,7 +27,7 @@ export default function FloatingActions() {
         ✉
       </a>
       <a
-        href="https://linkedin.com/in/"
+        href="https://www.linkedin.com/in/qurat-mehdi-a15670308/"
         target="_blank"
         rel="noopener noreferrer"
         className="floating-action"

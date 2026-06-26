@@ -15,14 +15,14 @@ export default function Footer() {
           </div>
           <div className="footer-links">
             <a
-              href="https://linkedin.com/in/"
+              href="https://www.linkedin.com/in/qurat-mehdi-a15670308/"
               target="_blank"
               rel="noopener noreferrer"
             >
               LinkedIn ↗
             </a>
             <a
-              href="https://github.com/"
+              href="https://github.com/mqurat"
               target="_blank"
               rel="noopener noreferrer"
             >
