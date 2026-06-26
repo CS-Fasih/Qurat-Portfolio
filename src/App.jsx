@@ -43,7 +43,7 @@ function App() {
             transition={{ duration: 0.5 }}
           >
             <div className="page-loader-inner">
-              <div className="page-loader-logo">M</div>
+              <div className="page-loader-logo">Qurat</div>
               <div className="page-loader-bar">
                 <div className="page-loader-bar-fill" />
               </div>

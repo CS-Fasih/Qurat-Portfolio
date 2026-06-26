@@ -333,17 +333,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-logo {
-  width: 40px;
-  height: 40px;
+  padding: 8px 16px;
   background: var(--accent);
-  border-radius: 50%;
+  border-radius: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 13px;
   color: var(--bg-primary);
   flex-shrink: 0;
+  letter-spacing: 0.5px;
 }
 
 .navbar-cta {
@@ -1501,16 +1501,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-loader-logo {
-  width: 56px;
-  height: 56px;
+  padding: 14px 28px;
   background: var(--accent);
-  border-radius: 50%;
+  border-radius: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  font-size: 22px;
+  font-size: 20px;
   color: var(--bg-primary);
+  letter-spacing: 1px;
   animation: loader-pulse 1.2s ease-in-out infinite;
 }
 
