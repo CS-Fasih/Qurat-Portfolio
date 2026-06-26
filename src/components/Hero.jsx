@@ -61,6 +61,14 @@ export default function Hero() {
                 <span style={{ color: 'var(--accent)', fontSize: '8px' }}>●</span>
                 View Projects
               </a>
+              <a 
+                href="/Qurat_QA_Resume.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="btn btn-outline"
+              >
+                <span style={{ fontSize: '12px' }}>📄</span> Download Resume
+              </a>
             </motion.div>
 
             <motion.div
