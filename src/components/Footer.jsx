@@ -7,10 +7,10 @@ export default function Footer() {
         <div className="footer-content">
           <div className="footer-left">
             <div className="footer-name">
-              Qurat-ul-Ain <span style={{ color: 'var(--accent)' }}>.</span>
+              Muhammad Qurat Mehdi <span style={{ color: 'var(--accent)' }}>.</span>
             </div>
             <div className="footer-copy">
-              © {currentYear} Qurat-ul-Ain. All rights reserved.
+              © {currentYear} Muhammad Qurat Mehdi. All rights reserved.
             </div>
           </div>
           <div className="footer-links">

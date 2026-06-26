@@ -19,7 +19,7 @@ export default function FloatingActions() {
         💬
       </a>
       <a
-        href="mailto:qurat@example.com"
+        href="mailto:mquratmehdi@gmail.com"
         className="floating-action"
         title="Email"
         aria-label="Email"

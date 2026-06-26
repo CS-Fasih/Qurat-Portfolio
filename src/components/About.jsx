@@ -49,7 +49,7 @@ export default function About() {
             viewport={{ once: true, margin: '-100px' }}
           >
             <p>
-              I&apos;m <strong>Qurat-ul-Ain</strong>, a QA Engineer with a passion for 
+              I&apos;m <strong>Muhammad Qurat Mehdi</strong>, a QA Engineer with a passion for 
               ensuring software quality at every layer — from the frontend UI down to 
               the database. I specialize in <strong>manual testing</strong>, <strong>API 
               validation</strong>, and <strong>end-to-end data flow verification</strong>.

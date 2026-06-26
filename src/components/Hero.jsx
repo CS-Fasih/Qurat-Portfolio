@@ -105,7 +105,7 @@ export default function Hero() {
             <div className="hero-image-wrapper">
               <img
                 src="/Qurat_formal_image.jpeg"
-                alt="Qurat-ul-Ain — QA Engineer"
+                alt="Muhammad Qurat Mehdi — QA Engineer"
                 loading="eager"
               />
             </div>

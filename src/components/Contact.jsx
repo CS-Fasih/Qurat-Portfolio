@@ -41,9 +41,10 @@ export default function Contact() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          access_key: 'YOUR_WEB3FORMS_ACCESS_KEY', // Replace with actual key
+          access_key: 'YOUR_WEB3FORMS_ACCESS_KEY', // Get key at https://web3forms.com with mquratmehdi@gmail.com
           subject: `Portfolio Contact — ${formData.firstName} ${formData.lastName}`,
           from_name: `${formData.firstName} ${formData.lastName}`,
+          to: 'mquratmehdi@gmail.com',
           email: formData.email,
           phone: formData.phone,
           company: formData.company,
@@ -87,7 +88,7 @@ export default function Contact() {
               Let&apos;s <em>talk.</em>
             </h2>
             <p className="contact-description">
-              Direct line to Qurat-ul-Ain — no middleman. Tell me about your
+              Direct line to Muhammad Qurat Mehdi — no middleman. Tell me about your
               next project that needs quality assurance, and I&apos;ll reply
               within 24 hours with a concrete plan.
             </p>
@@ -96,16 +97,16 @@ export default function Contact() {
               <div className="contact-info-item">
                 <span className="contact-info-label">Email</span>
                 <span className="contact-info-value">
-                  <a href="mailto:qurat@example.com">qurat@example.com</a>
+                  <a href="mailto:mquratmehdi@gmail.com">mquratmehdi@gmail.com</a>
                 </span>
               </div>
               <div className="contact-info-item">
                 <span className="contact-info-label">Phone</span>
-                <span className="contact-info-value">+92 300 1234567</span>
+                <span className="contact-info-value">03242-194856</span>
               </div>
               <div className="contact-info-item">
                 <span className="contact-info-label">Location</span>
-                <span className="contact-info-value">Pakistan</span>
+                <span className="contact-info-value">Saadi Town Block 7, Karachi</span>
               </div>
             </div>
 

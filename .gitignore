@@ -27,3 +27,5 @@ Certificate2.pdf
 Qurat_QA_Resume.pdf
 Qurat_formal_image.jpeg
 src/assets/hero.png
+.vercel
+.env*.local

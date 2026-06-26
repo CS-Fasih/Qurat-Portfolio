@@ -35,7 +35,7 @@ export default function Navbar() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.2 }}
       >
-        <div className="navbar-logo">Q</div>
+        <div className="navbar-logo">M</div>
         <a href="#contact" className="navbar-cta">
           Hire Me →
         </a>
